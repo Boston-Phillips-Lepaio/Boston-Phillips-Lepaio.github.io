@@ -2,6 +2,7 @@ h1{
     font-size: 5vw;
     padding: 3px 0px;
     margin: 5px 0px 5px 0px;
+    font-family: Lobster;
 }
 p{
     font-family: sans-serif;
@@ -34,7 +35,6 @@ h3{
     grid-template-columns: 1fr 1fr 1fr;
     color: #61605e;
     text-align: center;
-    font-family: Lobster;
     border-style: outset;
     border-width: 2px;
     padding: 5px 0px;
