@@ -1,8 +1,13 @@
+h1{
+    font-size: 5vw;
+}
 .page-one{
     color: #61605e;
     text-align: center;
+    font-family: Lobster;
 }
 #sidebar{
+    font-family: Lobster;
     text-align: left;
     color:#61605e;
     border-color: #61605e;
