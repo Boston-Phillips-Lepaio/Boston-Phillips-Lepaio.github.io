@@ -12,13 +12,17 @@ h3{
     color: #61605e;
     text-align: center;
     font-family: Lobster;
+    border-style: solid;
+    border-width: 2px;
 }
 #sidebar{
     font-family: Lobster;
-    text-align: left;
+    text-align: center;
     color:#61605e;
     border-color: #61605e;
     border-style: solid;
-    border-width: 1px;
-    margin-right: 750px;
+    border-width: 2px;
+    position: fixed;
+    padding: 0px 30px 10px 0px;
+    height: auto;
 }
