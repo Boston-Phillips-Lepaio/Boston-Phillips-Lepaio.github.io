@@ -3,6 +3,10 @@ h1{
     padding: 3px 0px;
     margin: 5px 0px 5px 0px;
 }
+p{
+    font-family: sans-serif;
+    color: #61605e;
+}
 h3{
     font-size: 25px;
     padding: -10px 0px;
@@ -44,13 +48,14 @@ h3{
     grid-area:1 / 1;
     color: #61605e;
     text-align: center;
-    font-family: Lobster;
     background-color: #f5f9ff;
     border-style: groove;
     border-width: 2px;
 }
 .page-one-about-me{
+    padding: 0px 10px;
     grid-area:1 / 2;
+    text-align:center;
 }
 .page-one-right-sidebar{
     grid-area:1 / 3;
