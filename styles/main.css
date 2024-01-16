@@ -1,5 +1,12 @@
 h1{
     font-size: 5vw;
+    padding: 3px 0px;
+    margin: 5px 0px 5px 0px;
+}
+h3{
+    font-size: 2vw;
+    padding: -10px 0px;
+    margin: 5px 0px;
 }
 .page-one{
     color: #61605e;
@@ -13,4 +20,5 @@ h1{
     border-color: #61605e;
     border-style: solid;
     border-width: 1px;
+    margin-right: 750px;
 }
