@@ -1,4 +1,11 @@
 .page-one{
-    color: purple;
+    color: #61605e;
     text-align: center;
+}
+.sidebar{
+    text-align: left;
+    color:#61605e;
+    border-color: #61605e;
+    border-style: solid;
+    border-width: 1px;
 }
