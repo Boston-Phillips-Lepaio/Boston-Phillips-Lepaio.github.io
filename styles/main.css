@@ -2,15 +2,15 @@ h1{
     font-size: 35px;
     padding: 3px 0px;
     margin: 5px 0px 5px 0px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', monospace;
 }
 p{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', monospace;
     color: #61605e;
 }
 h3{
     font-size: 25px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', monospace;
     margin: 5px 0px;
 }
 .page-one-headbar-text{
@@ -52,10 +52,12 @@ h3{
     grid-area:1 / 1;
     color: #61605e;
     text-align: center;
+    font-family: 'Nunito', monospace;
     font-size: 20px;
     background-color: #e0e0ff;
     border-style: groove;
     border-width: 2px;
+    overflow-y: auto;
 }
 .page-one-about-me{
     grid-area:1 / 2;
@@ -71,30 +73,30 @@ h3{
 @media screen and (max-width: 1024px) {
     .page-one-about-me{
         font-size: 20px;
-        font-family: monospace;
+        font-family: 'nunito', monospace;
     }
     .page-one-sidebar{
         font-size: 20px;
-        font-family: monospace;
+        font-family: 'nunito', monospace;
     }
 }
 @media screen and (max-width: 768px) {
     .page-one-about-me{
         font-size: 17px;
-        font-family: monospace;
+        font-family: 'nunito', monospace;
     }
     .page-one-sidebar{
         font-size: 15px;
-        font-family: monospace;
+        font-family: 'nunito', monospace;
     }
 }
 @media screen and (max-width: 425px) {
     .page-one-about-me{
         font-size: 13px;
-        font-family: monospace;
+        font-family: 'nunito', monospace;
     }
     .page-one-sidebar{
         font-size: 10px;
-        font-family: monospace;
+        font-family: 'nunito', monospace;
     }
 }
