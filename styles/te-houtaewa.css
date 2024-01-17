@@ -36,6 +36,7 @@ h3{
     border-style: outset;
     border-width: 2px;
     padding: 5px 0px;
+    overflow: hidden;
 }
 .page-one-content-grid{
     display: grid;
