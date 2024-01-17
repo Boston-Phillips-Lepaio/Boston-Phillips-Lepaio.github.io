@@ -1,3 +1,6 @@
+.body{
+    background-color: #f7fff3;
+}
 h1{
     font-size: 35px;
     padding: 3px 0px;
@@ -67,4 +70,10 @@ h3{
     background-color: #e3ffd5;
     border-style: groove;
     border-width: 2px;
+}
+
+@media all and (max-width: 1000px) {
+    body {
+        background-color: blue;
+    }
 }
