@@ -64,7 +64,7 @@ img {
     overflow-y: auto;
 }
 .page-one-about-me{
-    font-size: 30px;
+    font-size: 34px;
     grid-area:1 / 2;
     text-align:center;
     padding: 5px 30px;
@@ -98,7 +98,7 @@ img {
 }
 @media screen and (max-width: 1024px) {
     .page-one-about-me{
-        font-size: 19px;
+        font-size: 18.5px;
         font-family: 'nunito', monospace;
     }
     .page-one-sidebar{
@@ -138,7 +138,7 @@ img {
 }
 @media screen and (max-width: 425px) {
     .page-one-about-me{
-        font-size: 13px;
+        font-size: 12.5px;
         font-family: 'nunito', monospace;
     }
     .page-one-sidebar{

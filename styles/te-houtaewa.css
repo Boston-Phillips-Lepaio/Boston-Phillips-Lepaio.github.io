@@ -68,7 +68,7 @@ img {
 }
 .page-one-about-me{
     grid-area:1 / 2;
-    font-size:25px;
+    font-size:30px;
     text-align:center;
     padding: 5px 30px;
     overflow-y: auto;
@@ -99,10 +99,32 @@ img {
         width: 100%;
     }
 }
+@media screen and (max-width: 1440px) {
+    .page-one-about-me{
+        font-size: 23px;
+        font-family: 'nunito', monospace;
+        padding: 5px 25px;
+    }
+    .page-one-sidebar{
+        font-size: 20px;
+        font-family: 'nunito', monospace;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
 @media screen and (max-width: 1024px) {
     .page-one-about-me{
-        font-size: 19px;
+        font-size: 17px;
         font-family: 'nunito', monospace;
+        padding: 5px 20px;
     }
     .page-one-sidebar{
         font-size: 17px;
@@ -116,13 +138,14 @@ img {
     }
     img{
         height: 100%;
-        width: 80%;
+        width: 100%;
     }
 }
 @media screen and (max-width: 768px) {
     .page-one-about-me{
-        font-size: 14px;
+        font-size: 13px;
         font-family: 'nunito', monospace;
+        padding: 5px 15px;
     }
     .page-one-sidebar{
         font-size: 12.5px;
@@ -132,7 +155,7 @@ img {
         font-size: 35px;
     }
     h3{
-        font-size: 22px;
+        font-size: 17px;
     }
     img{
         height: 100%;
@@ -141,22 +164,30 @@ img {
 }
 @media screen and (max-width: 425px) {
     .page-one-about-me{
-        font-size: 13px;
-        font-family: 'nunito', monospace;
-    }
-    .page-one-sidebar{
         font-size: 10px;
         font-family: 'nunito', monospace;
+        padding: 5px 5px;
+    }
+    .page-one-sidebar{
+        font-size: 8px;
+        font-family: 'nunito', monospace;
+        text-align: left;
     }
     h1{
-        font-size:20px;
+        font-size:10px;
     }
     h3{
-        font-size: 13px;
+        font-size: 10px;
     }
     img{
         height: 100%;
         width: 100%;
+    }
+    .page-one-headbar-grid{
+        grid-template-rows: 110px;
+    }
+    .page-one-content-grid{
+        top: 130.5px;
     }
 }
 
