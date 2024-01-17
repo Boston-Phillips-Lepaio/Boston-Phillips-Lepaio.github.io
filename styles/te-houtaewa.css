@@ -12,12 +12,9 @@ p{
     color: #61605e;
 }
 h3{
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Nunito', sans-serif;
     margin: 5px 0px;
-}
-.page-one-headbar-text{
-    grid-area: 1 / 2;
 }
 .p1-headbar-img-1{
     grid-area: 1 / 1;
@@ -41,6 +38,9 @@ h3{
     padding: 5px 0px;
     overflow: hidden;
 }
+.page-one-headbar-text{
+    grid-area: 1 / 2;
+}
 .page-one-content-grid{
     display: grid;
     grid-template-rows: auto;
@@ -62,6 +62,7 @@ h3{
 }
 .page-one-about-me{
     grid-area:1 / 2;
+    font-size:25px;
     text-align:center;
     padding: 5px 30px;
 }
@@ -71,11 +72,9 @@ h3{
     border-style: groove;
     border-width: 2px;
 }
-
-@media screen and (max-width: 979px) {
+@media screen and (max-width: 1024px) {
     .page-one-about-me{
-        background-color: blueviolet;
-        font-size: 30px;
+        font-size: 18px;
         font-family: monospace;
     }
 }
