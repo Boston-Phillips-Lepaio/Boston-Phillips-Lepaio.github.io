@@ -169,6 +169,7 @@ img {
         padding: 5px 5px;
     }
     .page-one-sidebar{
+        max-width:100%;
         font-size: 8px;
         font-family: 'nunito', monospace;
         text-align: left;

@@ -138,21 +138,29 @@ img {
 }
 @media screen and (max-width: 425px) {
     .page-one-about-me{
-        font-size: 12.5px;
+        font-size: 11.5px;
         font-family: 'nunito', monospace;
+        padding: 5px 5px;
     }
     .page-one-sidebar{
-        font-size: 10px;
+        font-size: 8px;
         font-family: 'nunito', monospace;
+        text-align: left;
     }
-    h1{
-        font-size:20px;
+    .page-one-headbar-text h1{
+        font-size: 20px;
     }
-    h3{
-        font-size: 13px;
+    .page-one-headbar-text h3{
+        font-size:10px;
     }
     img{
         height: 100%;
         width: 100%;
+    }
+    .page-one-headbar-grid{
+        grid-template-rows: 110px;
+    }
+    .page-one-content-grid{
+        top: 130.5px;
     }
 }
