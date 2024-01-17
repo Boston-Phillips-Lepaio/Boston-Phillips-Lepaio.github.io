@@ -72,8 +72,9 @@ h3{
     border-width: 2px;
 }
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 979px) {
     .page-one-about-me{
+        background-color: blueviolet;
         font-size: 30px;
         font-family: monospace;
     }
