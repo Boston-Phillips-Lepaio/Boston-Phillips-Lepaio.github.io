@@ -48,7 +48,7 @@ h3{
     bottom: 0;
     margin: 0px 7px 0px 0px;
 }
-.page-one-content{
+.page-one-sidebar{
     grid-area:1 / 1;
     color: #61605e;
     text-align: center;
