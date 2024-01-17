@@ -7,8 +7,9 @@ h1{
     margin: 5px 0px 5px 0px;
     font-family: 'Nunito', sans-serif;
 }
-p{
+.paragraph-font{
     font-family: 'Nunito', sans-serif;
+    font-size: 30px;
     color: #61605e;
 }
 h3{
@@ -70,10 +71,4 @@ h3{
     background-color: #e3ffd5;
     border-style: groove;
     border-width: 2px;
-}
-
-@media all and (max-width: 1000px) {
-    body {
-        background-color: blue;
-    }
 }
