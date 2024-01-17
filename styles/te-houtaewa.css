@@ -86,7 +86,7 @@ h3{
 }
 @media screen and (max-width: 768px) {
     .page-one-about-me{
-        font-size: 18px;
+        font-size: 17px;
         font-family: monospace;
     }
     .page-one-sidebar{
@@ -96,7 +96,7 @@ h3{
 }
 @media screen and (max-width: 425px) {
     .page-one-about-me{
-        font-size: 15px;
+        font-size: 13px;
         font-family: monospace;
     }
     .page-one-sidebar{
