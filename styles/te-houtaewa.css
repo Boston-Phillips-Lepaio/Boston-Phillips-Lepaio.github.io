@@ -18,9 +18,13 @@ h3{
 }
 .p1-headbar-img-1{
     grid-area: 1 / 1;
+    justify-self: center;
+    align-self: center;
 }
 .p1-headbar-img-2{
     grid-area: 1 / 3;
+    justify-self: center;
+    align-self: center;
 }
 img {
     height: 100%;
@@ -75,34 +79,84 @@ img {
     border-style: groove;
     border-width: 2px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1440px) {
     .page-one-about-me{
-        font-size: 20px;
-        font-family: monospace;
+        font-size: 25px;
+        font-family: 'nunito', monospace;
     }
     .page-one-sidebar{
         font-size: 20px;
-        font-family: monospace;
+        font-family: 'nunito', monospace;
+    }
+    h1{
+        font-size: 60px;
+    }
+    h3{
+        font-size: 23px;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .page-one-about-me{
+        font-size: 19px;
+        font-family: 'nunito', monospace;
+    }
+    .page-one-sidebar{
+        font-size: 17px;
+        font-family: 'nunito', monospace;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    img{
+        height: 100%;
+        width: 80%;
     }
 }
 @media screen and (max-width: 768px) {
     .page-one-about-me{
-        font-size: 17px;
-        font-family: monospace;
+        font-size: 14px;
+        font-family: 'nunito', monospace;
     }
     .page-one-sidebar{
-        font-size: 15px;
-        font-family: monospace;
+        font-size: 12.5px;
+        font-family: 'nunito', monospace;
+    }
+    h1{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    img{
+        height: 100%;
+        width: 100%;
     }
 }
 @media screen and (max-width: 425px) {
     .page-one-about-me{
         font-size: 13px;
-        font-family: monospace;
+        font-family: 'nunito', monospace;
     }
     .page-one-sidebar{
         font-size: 10px;
-        font-family: monospace;
+        font-family: 'nunito', monospace;
+    }
+    h1{
+        font-size:20px;
+    }
+    h3{
+        font-size: 13px;
+    }
+    img{
+        height: 100%;
+        width: 100%;
     }
 }
 
