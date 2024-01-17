@@ -68,3 +68,33 @@ h3{
     border-style: groove;
     border-width: 2px;
 }
+@media screen and (max-width: 1024px) {
+    .page-one-about-me{
+        font-size: 20px;
+        font-family: monospace;
+    }
+    .page-one-sidebar{
+        font-size: 20px;
+        font-family: monospace;
+    }
+}
+@media screen and (max-width: 768px) {
+    .page-one-about-me{
+        font-size: 17px;
+        font-family: monospace;
+    }
+    .page-one-sidebar{
+        font-size: 15px;
+        font-family: monospace;
+    }
+}
+@media screen and (max-width: 425px) {
+    .page-one-about-me{
+        font-size: 13px;
+        font-family: monospace;
+    }
+    .page-one-sidebar{
+        font-size: 10px;
+        font-family: monospace;
+    }
+}
