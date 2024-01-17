@@ -5,12 +5,12 @@ h1{
     font-family: 'Nunito', sans-serif;
 }
 p{
-    font-family: 'nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
     color: #61605e;
 }
 h3{
     font-size: 25px;
-    font-family: 'nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
     margin: 5px 0px;
 }
 .page-one-headbar-text{
@@ -50,6 +50,7 @@ h3{
     grid-area:1 / 1;
     color: #61605e;
     text-align: center;
+    font-family: 'Nunito', sans-serif;
     font-size: 20px;
     background-color: #f5f9ff;
     border-style: groove;
