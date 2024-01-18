@@ -80,6 +80,16 @@ img {
     border-style: groove;
     border-width: 2px;
 }
+@media screen and (max-width: 1788px) {
+    h1{
+        font-size: 70px;
+    }
+}
+@media screen and (max-width: 1567px) {
+    h1{
+        font-size: 64px;
+    }
+}
 @media screen and (max-width: 1440px) {
     .page-one-about-me{
         font-size: 23px;
