@@ -69,7 +69,7 @@ img {
 }
 .page-one-about-me{
     grid-area:1 / 2;
-    font-size:30px;
+    font-size:27px;
     text-align:center;
     padding: 5px 30px;
     overflow-y: auto;
@@ -92,7 +92,7 @@ img {
 }
 @media screen and (max-width: 1440px) {
     .page-one-about-me{
-        font-size: 23px;
+        font-size: 20px;
         font-family: 'nunito', monospace;
         padding: 5px 25px;
     }
@@ -101,13 +101,13 @@ img {
         font-family: 'nunito', monospace;
     }
     .page-one-headbar-text{
-        padding-top: 25px;
+        padding-top: 30px;
     }
     h1{
-        font-size: 60px;
+        font-size: 65px;
     }
     h3{
-        font-size: 40px;
+        font-size: 30px;
     }
     img{
         height: 100%;
@@ -116,7 +116,7 @@ img {
 }
 @media screen and (max-width: 1024px) {
     .page-one-about-me{
-        font-size: 17px;
+        font-size: 14px;
         font-family: 'nunito', monospace;
         padding: 5px 20px;
     }
@@ -125,10 +125,10 @@ img {
         font-family: 'nunito', monospace;
     }
     .page-one-headbar-text{
-        padding-top: 15px;
+        padding-top: 30px;
     }
     h1{
-        font-size: 50px;
+        font-size: 60px;
     }
     h3{
         font-size: 30px;
@@ -140,7 +140,7 @@ img {
 }
 @media screen and (max-width: 768px) {
     .page-one-about-me{
-        font-size: 13px;
+        font-size: 11px;
         font-family: 'nunito', monospace;
         padding: 5px 15px;
     }
@@ -149,10 +149,10 @@ img {
         font-family: 'nunito', monospace;
     }
     .page-one-headbar-text{
-        padding-top: 10px;
+        padding-top: 30px;
     }
     h1{
-        font-size: 45px;
+        font-size: 60px;
     }
     h3{
         font-size: 33px;
@@ -164,7 +164,7 @@ img {
 }
 @media screen and (max-width: 425px) {
     .page-one-about-me{
-        font-size: 10px;
+        font-size: 9px;
         font-family: 'nunito', monospace;
         padding: 5px 5px;
     }
@@ -178,7 +178,7 @@ img {
         padding-top: 0px;
     }
     h1{
-        font-size:25px;
+        font-size:40px;
     }
     h3{
         font-size: 20px;
