@@ -81,26 +81,6 @@ img {
 }
 @media screen and (max-width: 1440px) {
     .page-one-about-me{
-        font-size: 25px;
-        font-family: 'nunito', monospace;
-    }
-    .page-one-sidebar{
-        font-size: 20px;
-        font-family: 'nunito', monospace;
-    }
-    h1{
-        font-size: 60px;
-    }
-    h3{
-        font-size: 23px;
-    }
-    img{
-        height: 100%;
-        width: 100%;
-    }
-}
-@media screen and (max-width: 1440px) {
-    .page-one-about-me{
         font-size: 23px;
         font-family: 'nunito', monospace;
         padding: 5px 25px;
