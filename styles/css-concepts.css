@@ -90,11 +90,14 @@ img {
         font-size: 20px;
         font-family: 'nunito', monospace;
     }
+    .page-one-headbar-text{
+        padding-top: 25px;
+    }
     h1{
-        font-size: 40px;
+        font-size: 60px;
     }
     h3{
-        font-size: 25px;
+        font-size: 40px;
     }
     img{
         height: 100%;
@@ -115,10 +118,10 @@ img {
         padding-top: 15px;
     }
     h1{
-        font-size: 40px;
+        font-size: 50px;
     }
     h3{
-        font-size: 22px;
+        font-size: 30px;
     }
     img{
         height: 100%;
@@ -139,10 +142,10 @@ img {
         padding-top: 10px;
     }
     h1{
-        font-size: 35px;
+        font-size: 45px;
     }
     h3{
-        font-size: 17px;
+        font-size: 33px;
     }
     img{
         height: 100%;
@@ -162,13 +165,13 @@ img {
         text-align: left;
     }
     .page-one-headbar-text{
-        padding-top: 5px;
+        padding-top: 0px;
     }
     h1{
-        font-size:10px;
+        font-size:25px;
     }
     h3{
-        font-size: 10px;
+        font-size: 20px;
     }
     img{
         height: 100%;
