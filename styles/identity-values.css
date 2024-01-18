@@ -92,7 +92,7 @@ img {
 }
 @media screen and (max-width: 1440px) {
     .page-one-about-me{
-        font-size: 23px;
+        font-size: 18px;
         font-family: 'nunito', monospace;
         padding: 5px 25px;
     }
@@ -104,7 +104,7 @@ img {
         padding-top: 25px;
     }
     h1{
-        font-size: 60px;
+        font-size: 50px;
     }
     h3{
         font-size: 40px;
@@ -116,7 +116,7 @@ img {
 }
 @media screen and (max-width: 1024px) {
     .page-one-about-me{
-        font-size: 17px;
+        font-size: 13.3px;
         font-family: 'nunito', monospace;
         padding: 5px 20px;
     }
@@ -128,7 +128,7 @@ img {
         padding-top: 15px;
     }
     h1{
-        font-size: 50px;
+        font-size: 45px;
     }
     h3{
         font-size: 30px;
@@ -140,7 +140,7 @@ img {
 }
 @media screen and (max-width: 768px) {
     .page-one-about-me{
-        font-size: 13px;
+        font-size: 10px;
         font-family: 'nunito', monospace;
         padding: 5px 15px;
     }
@@ -149,10 +149,10 @@ img {
         font-family: 'nunito', monospace;
     }
     .page-one-headbar-text{
-        padding-top: 10px;
+        padding-top: 0px;
     }
     h1{
-        font-size: 45px;
+        font-size: 40px;
     }
     h3{
         font-size: 33px;
@@ -164,9 +164,9 @@ img {
 }
 @media screen and (max-width: 425px) {
     .page-one-about-me{
-        font-size: 10px;
+        font-size: 8.3px;
         font-family: 'nunito', monospace;
-        padding: 5px 5px;
+        padding: 0.5px 0.5px;
     }
     .page-one-sidebar{
         max-width:100%;
