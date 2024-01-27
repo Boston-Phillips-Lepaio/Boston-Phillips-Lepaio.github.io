@@ -145,8 +145,15 @@ img {
         padding: 5px 15px;
     }
     .page-one-sidebar{
-        font-size: 12.5px;
-        font-family: 'nunito', monospace;
+        grid-area:1 / 1;
+        color: #61605e;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        font-size: 27px;
+        background-color: #ffc1ff;
+        border-style: groove;
+        border-width: 2px;
+        overflow-y: auto;
     }
     .page-one-headbar-text{
         padding-top: 0px;
@@ -187,10 +194,20 @@ img {
         height: 100%;
         width: 100%;
     }
-    .page-one-headbar-grid{
-        grid-template-rows: 110px;
-    }
     .page-one-content-grid{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        position: fixed;
         top: 130.5px;
+        bottom: 0;
+        margin: 0px 7px 0px 0px;
+    }
+    .page-one-about-me{
+        grid-area:2 / 1;
+        font-size:24px;
+        text-align:center;
+        padding: 5px 30px;
+        overflow-y: auto;
     }
 }
