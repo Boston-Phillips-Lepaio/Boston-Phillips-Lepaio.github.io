@@ -173,7 +173,7 @@ img {
         color: #61605e;
         text-align: center;
         font-family: 'Nunito', sans-serif;
-        font-size: 27px;
+        font-size: 15px;
         border-style: groove;
         border-width: 2px;
         overflow-y: auto;
@@ -182,7 +182,7 @@ img {
         padding-top: 0px;
     }
     h1{
-        font-size:40px;
+        font-size:35px;
     }
     h3{
         font-size: 20px;
