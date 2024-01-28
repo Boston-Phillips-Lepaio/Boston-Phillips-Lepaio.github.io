@@ -174,8 +174,7 @@ img {
         color: #61605e;
         text-align: center;
         font-family: 'Nunito', sans-serif;
-        font-size: 27px;
-        background-color: #ffc1ff;
+        font-size: 15px;
         border-style: groove;
         border-width: 2px;
         overflow-y: auto;
@@ -207,7 +206,7 @@ img {
     }
     .page-one-about-me{
         grid-area:2 / 1;
-        font-size:24px;
+        font-size:15px;
         text-align:center;
         padding: 5px 30px;
         overflow-y: auto;
