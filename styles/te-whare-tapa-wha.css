@@ -2,7 +2,7 @@
     background-color: #ffffff;
 }
 h1{
-    font-size: 80px;
+    font-size: 65px;
     padding: 3px 0px;
     margin: 5px 0px 5px 0px;
     font-family: 'Nunito', sans-serif;
@@ -19,13 +19,15 @@ th, td {
     border-radius: 10px;
   }
 th{
-    background-color: aqua;
+    background-color: #979797;
+    color: #fff;
 }
 tr:nth-child(even) {
-    background-color: green;
+    background-color: #979797;
+    color: #fff;
 }
 tr:nth-child(odd) {
-    background-color: rgb(0, 128, 122);
+    background-color: #fff;
 }
 p{
     font-family: 'Nunito', sans-serif;
@@ -103,12 +105,12 @@ img {
 }
 @media screen and (max-width: 1788px) {
     h1{
-        font-size: 70px;
+        font-size: 60px;
     }
 }
 @media screen and (max-width: 1567px) {
     h1{
-        font-size: 64px;
+        font-size: 55px;
     }
 }
 @media screen and (max-width: 1440px) {
@@ -125,7 +127,7 @@ img {
         padding-top: 30px;
     }
     h1{
-        font-size: 65px;
+        font-size: 50px;
     }
     h3{
         font-size: 30px;
@@ -149,7 +151,7 @@ img {
         padding-top: 30px;
     }
     h1{
-        font-size: 60px;
+        font-size: 40px;
     }
     h3{
         font-size: 30px;
@@ -173,7 +175,7 @@ img {
         padding-top: 30px;
     }
     h1{
-        font-size: 60px;
+        font-size: 30px;
     }
     h3{
         font-size: 33px;
@@ -203,7 +205,7 @@ img {
         padding-top: 0px;
     }
     h1{
-        font-size:40px;
+        font-size:22px;
         padding-top:20px;
     }
     h3{
