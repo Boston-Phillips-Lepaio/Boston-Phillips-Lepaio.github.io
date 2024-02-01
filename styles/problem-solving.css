@@ -70,7 +70,7 @@ img {
 }
 .page-one-about-me{
     grid-area:1 / 2;
-    font-size:24px;
+    font-size:20px;
     text-align:center;
     padding: 5px 10px;
     overflow-y: auto;
@@ -93,7 +93,7 @@ img {
 }
 @media screen and (max-width: 1440px) {
     .page-one-about-me{
-        font-size: 20px;
+        font-size: 18px;
         font-family: 'nunito', monospace;
         padding: 5px 25px;
     }
@@ -183,7 +183,7 @@ img {
         padding-top: 0px;
     }
     h1{
-        font-size:40px;
+        font-size:30px;
         padding-top:20px;
     }
     h3{
