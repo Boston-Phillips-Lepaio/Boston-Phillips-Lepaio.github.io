@@ -1,5 +1,5 @@
 .body{
-    background-color: #dbffdf;
+    background-color: #e7ffea;
 }
 h1{
     font-size: 65px;
@@ -59,25 +59,25 @@ img {
 }
 .page-one-sidebar{
     grid-area:1 / 1;
-    color: #ffffff;
+    color: #61605e;
     text-align: center;
     font-family: 'Nunito', sans-serif;
     font-size: 27px;
-    background-color: #b2ffbc;
+    background-color: #bcffc5;
     border-style: groove;
     border-width: 2px;
     overflow-y: auto;
 }
 .page-one-about-me{
     grid-area:1 / 2;
-    font-size:20px;
+    font-size:26px;
     text-align:center;
     padding: 5px 10px;
     overflow-y: auto;
 }
 .page-one-right-sidebar{
     grid-area:1 / 3;
-    background-color: #b2ffbc;
+    background-color: #bcffc5;
     border-style: groove;
     border-width: 2px;
 }
@@ -93,7 +93,7 @@ img {
 }
 @media screen and (max-width: 1440px) {
     .page-one-about-me{
-        font-size: 18px;
+        font-size: 22px;
         font-family: 'nunito', monospace;
         padding: 5px 25px;
     }
@@ -117,7 +117,7 @@ img {
 }
 @media screen and (max-width: 1024px) {
     .page-one-about-me{
-        font-size: 14px;
+        font-size: 18px;
         font-family: 'nunito', monospace;
         padding: 5px 20px;
     }
@@ -141,7 +141,7 @@ img {
 }
 @media screen and (max-width: 768px) {
     .page-one-about-me{
-        font-size: 11px;
+        font-size: 14px;
         font-family: 'nunito', monospace;
         padding: 5px 15px;
     }
@@ -171,7 +171,7 @@ img {
     }
     .page-one-sidebar{
         grid-area:1 / 1;
-        color: #61605e;
+        color: #000000;
         text-align: center;
         font-family: 'Nunito', sans-serif;
         font-size: 15px;
