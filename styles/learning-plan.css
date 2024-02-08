@@ -104,10 +104,10 @@ img {
         padding-top: 30px;
     }
     h1{
-        font-size: 65px;
+        font-size: 55px;
     }
     h3{
-        font-size: 30px;
+        font-size: 40px;
     }
     img{
         height: 100%;
@@ -116,7 +116,7 @@ img {
 }
 @media screen and (max-width: 1024px) {
     .page-one-about-me{
-        font-size: 14px;
+        font-size: 18px;
         font-family: 'nunito', monospace;
         padding: 5px 20px;
     }
@@ -128,7 +128,7 @@ img {
         padding-top: 30px;
     }
     h1{
-        font-size: 60px;
+        font-size: 45px;
     }
     h3{
         font-size: 30px;
@@ -140,7 +140,7 @@ img {
 }
 @media screen and (max-width: 768px) {
     .page-one-about-me{
-        font-size: 11px;
+        font-size: 14px;
         font-family: 'nunito', monospace;
         padding: 5px 15px;
     }
@@ -152,10 +152,10 @@ img {
         padding-top: 30px;
     }
     h1{
-        font-size: 60px;
+        font-size: 45px;
     }
     h3{
-        font-size: 33px;
+        font-size: 30px;
     }
     img{
         height: 100%;
@@ -164,7 +164,7 @@ img {
 }
 @media screen and (max-width: 425px) {
     .page-one-about-me{
-        font-size: 9px;
+        font-size: 14px;
         font-family: 'nunito', monospace;
         padding: 5px 5px;
     }
@@ -182,7 +182,7 @@ img {
         padding-top: 0px;
     }
     h1{
-        font-size:35px;
+        font-size:25px;
     }
     h3{
         font-size: 20px;
